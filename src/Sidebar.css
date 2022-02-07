@@ -1,0 +1,96 @@
+.sidebar{
+    flex: 0.2;
+}
+
+.sidebar-item {
+    border: solid .1px rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.sidebar-item .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-item .profile-cover{
+    object-fit: cover;
+    width: 100%;
+    height: 60px;
+}
+
+.sidebar-item .avatar{
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    border: 2px solid white;
+}
+
+.sidebar-item h2{
+    font-size: 18px;
+    margin: 10px 0px 0px;
+}
+
+.sidebar-item p{
+    font-size: 14px;
+}
+
+.sidebar-item hr{
+    margin: 20px 0px 10px;
+    width: 100%;
+    border: solid .1px rgba(0, 0, 0, 0.103);
+}
+
+.sidebar-item .profile-stats{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.sidebar-item .profile-stats p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #666;
+    margin-top: 10px;
+}
+
+.sidebar-item .profile-stats .stat{
+    color: #2867B2;
+}
+
+.sidebar-item .sidebar-recents{
+    padding: 20px;
+}
+
+.sidebar-item .sidebar-recents h3{
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sidebar-item .sidebar-recents .recent-items{
+    display: flex;
+    padding: 0 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.sidebar-item .sidebar-recents .recent-items:hover{
+    background-color: aliceblue;
+}
+
+.sidebar-item .sidebar-recents .recent-items span{
+    color: #2867B2;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.sidebar-item .sidebar-recents .recent-items p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #2867B2;
+}

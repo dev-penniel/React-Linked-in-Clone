@@ -1,0 +1,70 @@
+.widgets{
+    flex: 0.3;
+    height: fit-content;
+}
+
+.widgets-items{
+    border: solid .1px rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.in-img{
+    padding: 0px 10px;
+    margin-bottom: 0px;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2{
+    color: #666;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header .info-icon, .footer .arrow{
+    color: #666;
+    width: 17px;
+}
+
+.course{
+    padding: 5px 20px;
+    cursor: pointer;
+    color: #666;
+}
+
+.course:hover{
+    background-color: aliceblue;
+}
+
+.course h4{
+    font-size: 14px;
+}
+
+.course p{
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+.footer{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer h2{
+    font-size: 14px;
+    font-weight: 500;
+    color: #2867B2;
+}

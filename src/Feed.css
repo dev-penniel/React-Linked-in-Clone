@@ -1,0 +1,82 @@
+.feed{
+    flex: .5;
+    margin: 0 20px;
+}
+
+.feed .post-input-container, .feed .post-output-container{
+    border: solid .1px rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px 20px 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.feed .post-output-container{
+    margin-bottom: 5px;
+}
+
+.feed .input-container{
+    display: flex;
+    align-items: center;
+}
+
+.feed .post-input-container .post-input{
+    border: solid .1px rgba(0, 0, 0, 0.308);
+    border-radius: 50px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.feed .post-input-container .post-input .input-create-icon{
+    margin-right: 10px;
+    color: #666;
+}
+
+.feed .post-input-container .post-input-avatar{
+    margin-right: 10px;
+}
+
+.feed .post-input-container .post-input form{
+    display: flex;
+}
+
+.feed .post-input-container .post-input input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.feed .post-input-container .post-input button{
+    display: none;
+}
+
+.feed .input-options{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.feed .post-options{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #666;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.feed .post-options p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.feed .post-options:hover{
+    background-color: #F3F2EF;
+}
+
+.feed .post-option-icon{
+    margin-right: 10px;
+}

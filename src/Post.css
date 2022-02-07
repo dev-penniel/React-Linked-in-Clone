@@ -1,0 +1,32 @@
+.post-output-section .post-output-header{
+    display: flex;
+    align-items: center;
+}
+
+.post-output-section .post-output-header .post-avatar{
+    margin-right: 10px;
+}
+
+.post-output-section .post-output-header .profile-details .profile-names{
+    font-size: 14px;
+    color: #666;
+}
+
+.post-output-section .post-output-header .profile-details p{
+    font-size: 11px;
+    color: #666;
+}
+
+.post-output-section .post-output-body{
+    margin: 10px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+.post-output-section .output-buttons{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid .1px rgba(0, 0, 0, 0.103);
+    padding-top: 5px;
+}

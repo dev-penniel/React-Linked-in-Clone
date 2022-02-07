@@ -1,0 +1,99 @@
+.header{
+    padding: 10px 20px;
+    border-bottom: solid .1px rgba(0, 0, 0, 0.103);
+    background-color: white;
+}
+
+.header .header-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.header .header-left{
+    display: flex;
+}
+
+.header .header-left .logo{
+    object-fit: contain;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.header .header-left .header-search{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.header .header-left .header-search .search-icon{
+    color: #666;
+    width: 20px;
+}
+
+.header .header-left .header-search input{
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+    margin-left: 10px;
+    color: #666;
+}
+
+.header .header-left .header-search input::placeholder{
+    color: #666;
+}
+
+.header .header-options, .header .header-options div{
+    display: flex;
+}
+
+.header .header-options .header-options-left{
+    padding-right: 20px;
+    border-right: solid .1px rgba(0, 0, 0, 0.192);
+}
+
+.header .header-options .header-options-right{
+    padding-left: 20px;
+}
+
+.header .header-options .header-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 0 10px;
+    color: #666;
+    cursor: pointer;
+    max-width: 100px;
+    text-align: center;
+}
+
+.header .header-options .header-option:hover{
+    color: black;
+}
+
+.header .header-options .header-option .header-icon{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.header .header-options .header-option p{
+    font-size: 12px;
+}
+
+.header .header-options .header-dropdown{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header .header-options .header-dropdown .dropdown-icon{
+    position: absolute; 
+    left: 20px;
+    display: none;
+}
